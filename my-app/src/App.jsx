@@ -184,13 +184,12 @@ export default class App extends Component {
           <div className="cheat">{this.state.code}</div>
         </main>
         <footer>
-          <p>You can read about how this game was done here: </p>
+          <p>This game is a copy. Below is a link to original source </p>
           <p>
             <a href="http://zofiakorcz.pl/mastermind-react-es6-webpack">
               Mastermind game in React and ECMAScript 6.
             </a>
           </p>
-          <p>c Mihul</p>
         </footer>
       </div>
     );
